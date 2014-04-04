@@ -56,9 +56,9 @@ if [[ "$(type -P brew)" ]]; then
     e_arrow "Please exit and restart all your shells."
   fi
 
-  # i don't remember why i needed this?!
-  if [[ ! "$(type -P gcc-4.2)" ]]; then
-    e_header "Installing Homebrew dupe recipe: apple-gcc42"
-    brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb
-  fi
+  ## i don't remember why i needed this?!
+  #if [[ ! "$(type -P gcc-4.2)" ]]; then
+  #  e_header "Installing Homebrew dupe recipe: apple-gcc42"
+  #  brew install https://raw.github.com/Homebrew/homebrew-dupes/master/apple-gcc42.rb
+  #fi
 fi
