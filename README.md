@@ -1,5 +1,13 @@
 # Dotfiles
 
+```sh
+bash -c "$(curl -fsSL https://raw.github.com/aaroncline/dotfiles/master/bin/dotfiles)" && source ~/.bashrc
+```
+
+I forked this from Ben Alman's repo.  His original README is below.  I'm getting started with this for my own uses.  I've taken out the nodejs installation and the rbenv.  I hope to replace rbenv with a rvm installation.
+
+
+
 My OS X / Ubuntu dotfiles.
 
 ## Why is this a git repo?
