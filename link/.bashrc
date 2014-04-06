@@ -20,3 +20,10 @@ function dotfiles() {
 }
 
 src
+
+# Source file called .bashrc.local if it exists
+# Meant to be server/system specific
+
+if [[ -e "$HOME/.bashrc.local" ]]; then
+  source "$HOME/.bashrc.local"
+fi
